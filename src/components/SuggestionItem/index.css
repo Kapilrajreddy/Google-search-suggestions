@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.suggestion-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.suggestion-item-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 5px;
+  color: #475569;
+}
+
+.arrow-button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+.arrow-logo {
+  border: none;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  color: #475569;
+}
+@media (max-width: 768px) {
+  .suggestion-item-name {
+    font-size: 14px;
+  }
+  .arrow-logo {
+    width: 16px;
+    height: 16px;
+  }
+}
+/*
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style-type: none;
+}
+
+.suggestion-name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .suggestion-name {
+    font-size: 20px;
+  }
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.arrow-image {
+  height: 16px;
+  width: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow-image {
+    height: 24px;
+    width: 24px;
+  }
+}
+*/
